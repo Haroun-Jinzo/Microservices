@@ -7,12 +7,7 @@ A scalable recommendation system built with microservices, gRPC, Kafka, and Mong
 - [System Architecture](#system-architecture)
 - [Services](#services)
 - [Technologies](#technologies)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [API Documentation](#api-documentation)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- [API Documentation](#Technologies)
 
 ## Features
 - **Real-time recommendations** based on user preferences
