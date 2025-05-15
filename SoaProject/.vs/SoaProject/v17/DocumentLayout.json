@@ -1,0 +1,360 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\controllers\\recommendationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\protos\\product.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\userservice\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|solutionrelative:userservice\\protos\\user.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\productservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|solutionrelative:userservice\\userservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\apigateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\apigateway.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|solutionrelative:userservice\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\protos\\greet.proto||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48281D81-8E59-4AEC-B058-27ECDD472D73}|ProductService\\ProductService.csproj|solutionrelative:productservice\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6571C68-9DBD-480B-8C35-BA9D491097DE}|RecommendationService\\RecommendationService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\recommendationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6571C68-9DBD-480B-8C35-BA9D491097DE}|RecommendationService\\RecommendationService.csproj|solutionrelative:recommendationservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|solutionrelative:userservice\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1F89080C-EF4E-4231-9C0B-1E9367F63A3F}|UserService\\UserService.csproj|solutionrelative:userservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\graphql\\query.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|c:\\users\\jinzo\\desktop\\polytechnique\\sem2\\soa\\soaproject\\soaproject\\apigateway\\graphql\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143DA165-E392-4008-98F4-5854466BA826}|ApiGateway\\ApiGateway.csproj|solutionrelative:apigateway\\graphql\\mutation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ApiGateway.http",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\ApiGateway.http",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.http",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\ApiGateway.http",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-10T22:52:27.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\ProductService.csproj",
+              "RelativeDocumentMoniker": "ProductService\\ProductService.csproj",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\ProductService.csproj",
+              "RelativeToolTip": "ProductService\\ProductService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T22:52:08.859Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserService",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\UserService.csproj",
+              "RelativeDocumentMoniker": "UserService\\UserService.csproj",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\UserService.csproj",
+              "RelativeToolTip": "UserService\\UserService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T22:50:34.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Program.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Program.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Program.cs",
+              "RelativeToolTip": "ApiGateway\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:44:40.761Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Product.proto",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Protos\\Product.proto",
+              "RelativeDocumentMoniker": "ProductService\\Protos\\Product.proto",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Protos\\Product.proto",
+              "RelativeToolTip": "ProductService\\Protos\\Product.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-10T22:36:58.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RecommendationController.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Controllers\\RecommendationController.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Controllers\\RecommendationController.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Controllers\\RecommendationController.cs",
+              "RelativeToolTip": "ApiGateway\\Controllers\\RecommendationController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:28:35.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "product.proto",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Protos\\product.proto",
+              "RelativeDocumentMoniker": "ApiGateway\\Protos\\product.proto",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Protos\\product.proto",
+              "RelativeToolTip": "ApiGateway\\Protos\\product.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-10T22:26:48.968Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "user.proto",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Protos\\user.proto",
+              "RelativeDocumentMoniker": "UserService\\Protos\\user.proto",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Protos\\user.proto",
+              "RelativeToolTip": "UserService\\Protos\\user.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-10T22:34:04.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "user.proto",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Protos\\user.proto",
+              "RelativeDocumentMoniker": "ApiGateway\\Protos\\user.proto",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Protos\\user.proto",
+              "RelativeToolTip": "ApiGateway\\Protos\\user.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-10T22:29:09.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ApiGateway",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\ApiGateway.csproj",
+              "RelativeDocumentMoniker": "ApiGateway\\ApiGateway.csproj",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\ApiGateway.csproj",
+              "RelativeToolTip": "ApiGateway\\ApiGateway.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-10T22:50:18.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Program.cs",
+              "RelativeDocumentMoniker": "ProductService\\Program.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Program.cs",
+              "RelativeToolTip": "ProductService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:36:46.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "greet.proto",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Protos\\greet.proto",
+              "RelativeDocumentMoniker": "ProductService\\Protos\\greet.proto",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Protos\\greet.proto",
+              "RelativeToolTip": "ProductService\\Protos\\greet.proto",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003853|",
+              "WhenOpened": "2025-05-10T22:36:57.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "productService.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Services\\productService.cs",
+              "RelativeDocumentMoniker": "ProductService\\Services\\productService.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Services\\productService.cs",
+              "RelativeToolTip": "ProductService\\Services\\productService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:40:18.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Models\\User.cs",
+              "RelativeDocumentMoniker": "UserService\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Models\\User.cs",
+              "RelativeToolTip": "UserService\\Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:41:44.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "ProductService\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ProductService\\Models\\Product.cs",
+              "RelativeToolTip": "ProductService\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:41:55.422Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\RecommendationService\\Program.cs",
+              "RelativeDocumentMoniker": "RecommendationService\\Program.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\RecommendationService\\Program.cs",
+              "RelativeToolTip": "RecommendationService\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBAAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:36:16.794Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "UserService\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Services\\UserService.cs",
+              "RelativeToolTip": "UserService\\Services\\UserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:39:36.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Program.cs",
+              "RelativeDocumentMoniker": "UserService\\Program.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\UserService\\Program.cs",
+              "RelativeToolTip": "UserService\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:34:05.114Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Query.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Graphql\\Query.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Graphql\\Query.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Graphql\\Query.cs",
+              "RelativeToolTip": "ApiGateway\\Graphql\\Query.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:25:54.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Mutation.cs",
+              "DocumentMoniker": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Graphql\\Mutation.cs",
+              "RelativeDocumentMoniker": "ApiGateway\\Graphql\\Mutation.cs",
+              "ToolTip": "C:\\Users\\Jinzo\\Desktop\\Polytechnique\\sem2\\SOA\\SoaProject\\SoaProject\\ApiGateway\\Graphql\\Mutation.cs",
+              "RelativeToolTip": "ApiGateway\\Graphql\\Mutation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T22:25:36.473Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

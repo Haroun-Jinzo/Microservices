@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "Soa.Protos";
+
+package Soa.Protos;
+
+service ProductService {
+  rpc GetProductsByCategory (CategoryRequest) returns (ProductsResponse);
+}
+
+message CategoryRequest {
+  string category = 1;
+}
+
+message ProductsResponse {
+  repeated Product products = 1;
+}
+
+message Product {
+  string id = 1;
+  string name = 2;
+  string category = 3;
+}

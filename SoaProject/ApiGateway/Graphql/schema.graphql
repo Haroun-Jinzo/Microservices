@@ -1,0 +1,14 @@
+type Query {
+    getRecommendations(userId: String!): [Product!]!
+}
+
+type Product {
+    id: String!
+    name: String!
+    category: String!
+}
+
+type Error {
+    code: String!
+    message: String!
+}
