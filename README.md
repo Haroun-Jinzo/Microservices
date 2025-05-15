@@ -7,7 +7,7 @@ A scalable recommendation system built with microservices, gRPC, Kafka, and Mong
 - [System Architecture](#system-architecture)
 - [Services](#services)
 - [Technologies](#technologies)
-- [API Documentation](#Technologies)
+- [Sequence Diqgram](#sequence-)
 
 ## Features
 - **Real-time recommendations** based on user preferences
@@ -70,3 +70,14 @@ graph TD
   C --> G[MongoDB Users]
   D --> H[MongoDB Products]
   F --> I[MongoDB Recommendations]
+
+
+  Client->>API Gateway: GraphQL Request
+  API Gateway->>UserService: gRPC GetPreferences
+  UserService->>API Gateway: User Preferences
+  API Gateway->>ProductService: gRPC GetProducts
+  ProductService->>API Gateway: Products List
+  API Gateway->>Client: Formatted Response
+  Client->>API Gateway: Mutation Request
+  API Gateway->>Kafka: Produce Event
+  Kafka->>RecommendationService: Consume Event
