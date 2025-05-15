@@ -72,12 +72,3 @@ graph TD
   F --> I[MongoDB Recommendations]
 
 
-  Client->>API Gateway: GraphQL Request
-  API Gateway->>UserService: gRPC GetPreferences
-  UserService->>API Gateway: User Preferences
-  API Gateway->>ProductService: gRPC GetProducts
-  ProductService->>API Gateway: Products List
-  API Gateway->>Client: Formatted Response
-  Client->>API Gateway: Mutation Request
-  API Gateway->>Kafka: Produce Event
-  Kafka->>RecommendationService: Consume Event
