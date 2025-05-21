@@ -49,6 +49,8 @@ namespace Soa.Protos {
     static readonly grpc::Marshaller<global::Soa.Protos.CategoryRequest> __Marshaller_Soa_Protos_CategoryRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Soa.Protos.CategoryRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Marshaller<global::Soa.Protos.ProductsResponse> __Marshaller_Soa_Protos_ProductsResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Soa.Protos.ProductsResponse.Parser));
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Marshaller<global::Soa.Protos.ProductRequest> __Marshaller_Soa_Protos_ProductRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::Soa.Protos.ProductRequest.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     static readonly grpc::Method<global::Soa.Protos.CategoryRequest, global::Soa.Protos.ProductsResponse> __Method_GetProductsByCategory = new grpc::Method<global::Soa.Protos.CategoryRequest, global::Soa.Protos.ProductsResponse>(
@@ -56,6 +58,14 @@ namespace Soa.Protos {
         __ServiceName,
         "GetProductsByCategory",
         __Marshaller_Soa_Protos_CategoryRequest,
+        __Marshaller_Soa_Protos_ProductsResponse);
+
+    [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+    static readonly grpc::Method<global::Soa.Protos.ProductRequest, global::Soa.Protos.ProductsResponse> __Method_CreateProduct = new grpc::Method<global::Soa.Protos.ProductRequest, global::Soa.Protos.ProductsResponse>(
+        grpc::MethodType.Unary,
+        __ServiceName,
+        "CreateProduct",
+        __Marshaller_Soa_Protos_ProductRequest,
         __Marshaller_Soa_Protos_ProductsResponse);
 
     /// <summary>Service descriptor</summary>
@@ -110,6 +120,26 @@ namespace Soa.Protos {
       public virtual grpc::AsyncUnaryCall<global::Soa.Protos.ProductsResponse> GetProductsByCategoryAsync(global::Soa.Protos.CategoryRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_GetProductsByCategory, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Soa.Protos.ProductsResponse CreateProduct(global::Soa.Protos.ProductRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateProduct(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual global::Soa.Protos.ProductsResponse CreateProduct(global::Soa.Protos.ProductRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.BlockingUnaryCall(__Method_CreateProduct, null, options, request);
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Soa.Protos.ProductsResponse> CreateProductAsync(global::Soa.Protos.ProductRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      {
+        return CreateProductAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
+      }
+      [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
+      public virtual grpc::AsyncUnaryCall<global::Soa.Protos.ProductsResponse> CreateProductAsync(global::Soa.Protos.ProductRequest request, grpc::CallOptions options)
+      {
+        return CallInvoker.AsyncUnaryCall(__Method_CreateProduct, null, options, request);
       }
       /// <summary>Creates a new instance of client from given <c>ClientBaseConfiguration</c>.</summary>
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]

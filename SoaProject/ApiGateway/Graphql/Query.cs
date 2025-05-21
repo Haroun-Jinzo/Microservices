@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Grpc.Core;
-using Soa.Protos;    // now matches package Soa.Protos
+using Soa.Protos;
 
 public class Query
 {
@@ -28,7 +28,7 @@ public class Query
         catch (RpcException ex) when (
                  ex.StatusCode == StatusCode.NotFound     ||
                  ex.StatusCode == StatusCode.DeadlineExceeded ||
-                 ex.StatusCode == StatusCode.Unimplemented)   // catch unimplemented too
+                 ex.StatusCode == StatusCode.Unimplemented)
         {
             return await GetDefaultProductsAsync(productClient);
         }
@@ -42,12 +42,12 @@ public class Query
         ProductService.ProductServiceClient productClient,
         string category)
     {
-        // Note: use ProductsResponse here
+        
         var response = await productClient.GetProductsByCategoryAsync(
             new CategoryRequest { Category = category },
             deadline: DateTime.UtcNow.AddSeconds(5));
 
-        // response is a ProductsResponse
+        
         return (response?.Products ?? Enumerable.Empty<Product>())
                .Take(5);
     }

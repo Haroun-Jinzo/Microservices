@@ -126,3 +126,4 @@ C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\ApiGateway\o
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\ApiGateway\obj\Debug\net8.0\ApiGateway.pdb
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\ApiGateway\obj\Debug\net8.0\ApiGateway.genruntimeconfig.cache
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\ApiGateway\obj\Debug\net8.0\ref\ApiGateway.dll
+C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\ApiGateway\obj\Debug\net8.0\ApiGateway.sourcelink.json

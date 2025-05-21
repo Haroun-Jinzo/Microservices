@@ -6,7 +6,7 @@ using MongoDB.Driver;
 namespace ProductService.Controllers
 {
     [ApiController]
-    [Route("api/products")] // ← Must match your URL
+    [Route("api/products")]
     public class ProductController : ControllerBase
     {
 
@@ -17,7 +17,7 @@ namespace ProductService.Controllers
         _products = db.GetCollection<Product>("products");
         }
     
-        [HttpGet] // ← Ensure this exists
+        [HttpGet]
         public IActionResult GetAllProducts()
         {
             return Ok(new[] 

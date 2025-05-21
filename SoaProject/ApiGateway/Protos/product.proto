@@ -6,10 +6,18 @@ package Soa.Protos;
 
 service ProductService {
   rpc GetProductsByCategory (CategoryRequest) returns (ProductsResponse);
+  rpc CreateProduct (ProductRequest) returns (ProductsResponse);
 }
 
 message CategoryRequest {
   string category = 1;
+}
+
+message ProductRequest{
+  string name = 1;
+  string category = 2;
+  string description = 3;
+  double price = 4;
 }
 
 message ProductsResponse {

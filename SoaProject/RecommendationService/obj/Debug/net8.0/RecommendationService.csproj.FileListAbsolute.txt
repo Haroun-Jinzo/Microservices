@@ -87,3 +87,4 @@ C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\Recommendati
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\RecommendationService\obj\Debug\net8.0\RecommendationService.pdb
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\RecommendationService\obj\Debug\net8.0\RecommendationService.genruntimeconfig.cache
 C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\RecommendationService\obj\Debug\net8.0\ref\RecommendationService.dll
+C:\Users\Jinzo\Desktop\Polytechnique\sem2\SOA\SoaProject\SoaProject\RecommendationService\obj\Debug\net8.0\RecommendationService.sourcelink.json

@@ -55,7 +55,7 @@ namespace UserService.Services
         {
             try
             {
-                // Check for existing user
+                
                 var existingUser = await _users.Find(u => u.UserId == request.UserId)
                                              .FirstOrDefaultAsync();
                 
@@ -67,7 +67,7 @@ namespace UserService.Services
                         $"User {request.UserId} already exists"));
                 }
 
-                // Create new user
+                
                 var newUser = new User
                 {
                     UserId = request.UserId,

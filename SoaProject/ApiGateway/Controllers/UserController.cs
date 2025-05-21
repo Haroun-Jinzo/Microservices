@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-using Soa.Protos; // Your generated gRPC namespace
+using Soa.Protos;
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNetCore.Authorization;
 using Grpc.Core;
@@ -8,7 +8,6 @@ namespace ApiGateway.Controllers
 {
     [ApiController]
     [Route("api/users")]
-    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly UserService.UserServiceClient _userClient;
@@ -23,7 +22,7 @@ namespace ApiGateway.Controllers
         }
 
         [HttpPost]
-        [Authorize(Roles = "Administrator")]
+        //[Authorize]
         public async Task<IActionResult> CreateUser([FromBody] CreateUserDto request)
         {
             try
@@ -76,7 +75,7 @@ namespace ApiGateway.Controllers
             }
         }
 
-        // DTO Classes
+
         public record CreateUserDto(
             [Required] string UserId,
             [Required] List<string> Preferences);

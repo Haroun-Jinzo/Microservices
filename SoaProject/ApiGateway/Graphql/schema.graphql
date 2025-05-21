@@ -2,10 +2,16 @@ type Query {
     getRecommendations(userId: String!): [Product!]!
 }
 
+type Mutation {
+    logInteraction(userId: String!, productId: String!): Boolean!
+}
+
 type Product {
     id: String!
     name: String!
     category: String!
+    price: Float!
+    description: String 
 }
 
 type Error {
